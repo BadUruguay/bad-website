@@ -1,0 +1,21 @@
+- name: li.chess.uy # Project name, also used as heading
+  id: p1 # Project id, must be unique amongst the projects
+  img_src: /assets/img/lichess1.png # Optional image
+  description_less: Uruguayan Lichess instance # Description shown at all times, text only
+  description_more:
+    > # Description shown only when the project card is expanded, HTML only
+    <p>We deployed and maintain a custom Lichess instance for Uruguay.</p>
+  action_buttons: > # Action buttons for project, HTML only
+    <a href="https://github.com/BadUruguay/lila" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://li.chess.uy" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="2022/03/05/setting-up-a-production-lila-server.html" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+  tags: [chess, open-source, wip] # A list of tags
+
+- name: chess.uy
+  id: p2
+  img_src: /assets/img/chessuy1.png
+  description_less: Chess platform and community for Uruguay
+  description_more: <p>We created a platform to connect chess students and business with teachers.</p>
+  action_buttons:
+    <a href="https://chess.uy" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+  tags: [chess, community, wip]
